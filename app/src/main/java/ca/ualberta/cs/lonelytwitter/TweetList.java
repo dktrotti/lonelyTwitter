@@ -68,4 +68,8 @@ public class TweetList implements MyObservable{
             obs.myNotify();
         }
     }
+
+    public void clear() {
+        tweets.clear();
+    }
 }
